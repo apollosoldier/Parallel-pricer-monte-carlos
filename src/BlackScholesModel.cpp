@@ -1,6 +1,3 @@
-//
-// Created by lijaii on 9/12/19.
-//
 
 #include "BlackScholesModel.hpp"
 #include <math.h>
