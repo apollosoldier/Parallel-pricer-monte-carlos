@@ -41,8 +41,6 @@ endif (MPI_C_FOUND)
 
 # Detect PNL
 set(CMAKE_PREFIX_PATH /matieres/5MMPMP6/pnl)
-#set(CMAKE_PREFIX_PATH /home/zakariae/pnl-master/build)
-#set(CMAKE_PREFIX_PATH /Users/macbookpro/pnl-master/pnl-build)
 
 find_package(Pnl REQUIRED)
 set(LIBS ${LIBS} ${PNL_LIBRARIES})
